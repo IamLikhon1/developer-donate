@@ -36,7 +36,7 @@
     padding: 0 10px;
 
 }
-/* donate section */
+/* donate today section */
 .donate-container{
     display: inline-block;
     padding: 10px;
@@ -84,4 +84,55 @@
 .donate-btn{
     text-align: center;
     margin-top: 20px;
+}
+/* our donate plan start */
+.our-header{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+    padding-bottom:20px ;
+
+}
+.our-description{
+    text-align: center;
+    margin: 0 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    padding: 10px 40px;
+
+}
+.our-div-container{
+    display: flex;
+    margin: 0 80px;
+}
+.div-sub1{
+    background: rgba(79, 157, 166, 0.1);
+
+}
+.div-sub2{
+    background: rgba(255, 89, 89, 0.1);
+}
+.div-sub3{
+    background: lightcyan;
+}
+.food{
+    width: 53px;
+    height: 53px;
+    padding: 10px 20px;
+    
+}
+.shelter{
+    width: 53px;
+    height: 53px;
+    padding: 10px 20px;
+
+}
+.education{
+    width: 53px;
+    height: 53px;
+    padding: 10px 20px;
+
 }
