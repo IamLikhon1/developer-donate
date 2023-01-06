@@ -4,9 +4,10 @@
 .primary-btn{
     background: #FF5959;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 16px 12px;
     color: white;
+    border: none;
 }
 /* header section */
 .header{
@@ -32,8 +33,10 @@
 .header-description{
     font-size: 20px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 0 10px;
+    font-weight: 900;
+    margin-top: 30px;
 
 }
 /* donate today section */
@@ -66,6 +69,9 @@
     background: lightgray;
     margin-top: 10px;
 
+}
+.donate-money:hover{
+    background-color: #FF5959;
 }
 .money-info{
     font-size: 25px;
@@ -107,32 +113,194 @@
 .our-div-container{
     display: flex;
     margin: 0 80px;
-}
-.div-sub1{
-    background: rgba(79, 157, 166, 0.1);
-
-}
-.div-sub2{
-    background: rgba(255, 89, 89, 0.1);
-}
-.div-sub3{
-    background: lightcyan;
-}
-.food{
-    width: 53px;
-    height: 53px;
-    padding: 10px 20px;
     
 }
+.our-help1{
+    border:3px solid;
+    border-radius: 5px;
+    width: 600px;
+    height: 350px;
+    margin: 10px 50px;
+    background: rgb(82, 236, 11);
+    
+    
+}
+.our-help1:hover{
+    box-shadow: 15px 15px 10px gray;
+}
+.food{
+    width: 50px;
+    height: 50px;
+    padding: 5px 18px;
+    
+}
+.our-help2{
+    border:3px solid;
+    border-radius: 5px;
+    width: 600px;
+    height: 350px;
+    margin: 10px 50px;
+    background: rgba(19, 207, 228, 0.979);
+}
+.our-help2:hover{
+    box-shadow: 15px 15px 10px grey;}
+
 .shelter{
-    width: 53px;
-    height: 53px;
-    padding: 10px 20px;
+    width: 50px;
+    height: 50px;
+    padding: 5px 18px;
+
 
 }
+.our-help3{
+    border:3px solid;
+    border-radius: 5px;
+    width: 600px;
+    height: 350px;
+    margin: 10px 50px;
+    background: rgba(8, 123, 231, 0.247);
+}
+.our-help3:hover{
+    box-shadow: 15px 15px 10px gray;}
 .education{
-    width: 53px;
-    height: 53px;
-    padding: 10px 20px;
+    width: 50px;
+    height: 50px;
+    padding: 5px 18px;
 
+}
+.help-titel{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 15px;
+    color: red;
+    
+}
+.help-description{
+    font-size:16px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 5px 20px;
+}
+/* banner section 1 */
+.banner-container{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.banner-main{
+    margin: 20px 100px;
+}
+.banner-titel{
+    font-size: 45px;
+    text-align: left;
+    font-weight: 800;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 700;
+    color: #707070;
+    text-align:left;
+    margin-top: 30px;
+}
+.banner-main,button{
+    text-align: left;
+    margin-top: 30px;
+}
+.help-1{
+    width: 400px;
+    height: 450px;
+}
+/* banner 2 section */
+.banner-container2{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 170px;
+    text-align: center;
+}
+.banner-main2{
+    margin: 20px 100px;
+}
+.help-2{
+    width: 400px;
+    height: 450px;
+}
+.banner-title-2{
+    font-size: 45px;
+    text-align: left;
+    font-weight: 800;
+}
+.banner-description2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #707070;
+    text-align:left;
+    margin-top: 30px;
+}
+.banner-main2,button{
+    text-align: left;
+    margin-top: 30px;
+}
+/* update container */
+.update-container{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.update-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 30px;
+    
+}
+.update-description{
+    text-align: center;
+    margin: 20px 300px;
+    font-size: 18px;
+    color: #707070;
+}
+/* user container section */
+.user-container{
+    background: #FFF4D6;
+    width: 800px;
+    height: 200px;
+    margin-left: 200px;
+}
+.email-section{
+    align-items: center;
+    margin-left: 180px;
+    padding-top: 60px;
+    /* margin-right: 60px; */
+
+}
+#email{
+    font-size: 25px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+}
+/* footer section */
+.footer-main{
+    background: #0B0D17;
+    height: 140px;
+    margin-top: 120px;
+}
+.footer-title{
+    font-size: 36px;
+    color:#FF5959;
+    text-align: center;
+    padding-top: 25px;
+
+    
+}
+.footer-description{
+    font-size: 18px;
+    color: #D9DBE1;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
 }
