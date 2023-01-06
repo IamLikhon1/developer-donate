@@ -33,10 +33,9 @@
 .header-description{
     font-size: 20px;
     color: white;
-    margin-bottom: 30px;
-    padding: 0 10px;
+    padding: 0 20px;
     font-weight: 900;
-    margin-top: 30px;
+    margin: 50px;
 
 }
 /* donate today section */
@@ -87,6 +86,7 @@
     font-weight: 700;
     margin-bottom: 20px;
 }
+
 .donate-btn{
     text-align: center;
     margin-top: 20px;
@@ -136,6 +136,7 @@
     width: 50px;
     height: 50px;
     padding: 5px 18px;
+    margin-top: 10px;
     
 }
 .our-help2{
@@ -154,6 +155,8 @@
     width: 50px;
     height: 50px;
     padding: 5px 18px;
+    margin-top: 10px;
+
 
 
 }
@@ -172,19 +175,21 @@
     width: 50px;
     height: 50px;
     padding: 5px 18px;
+    margin-top: 10px;
+
 
 }
 .help-titel{
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 20px;
-    padding: 5px 15px;
-    color: red;
+    padding: 10px 15px;
+    color:#121212;
     
 }
 .help-description{
     font-size:16px;
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.87);
+    font-weight: 900;
+    color: #707070;
     padding: 5px 20px;
 }
 /* banner section 1 */
@@ -283,11 +288,18 @@
 
 }
 #email{
-    font-size: 25px;
+    font-size: 20px;
     background: #D9D9D9;
     border-radius: 5px;
     width: 250px;
     height: 50px;
+    border: none;
+
+}
+.email-section input,placeholder{
+    text-align: center;
+    color: #707070;
+    font-size: 17px;
 }
 /* footer section */
 .footer-main{
