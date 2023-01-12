@@ -323,3 +323,233 @@
     font-weight: 900;
 }
 /* project done */
+
+/* small device */
+@media screen and ( max-width:576px) {
+    .header-container{
+        padding: 15px 0;
+    }
+    .header-container>.primary-btn{
+        position: relative;
+        left: 10px;
+    }
+    .header-title{
+        position: relative;
+        top:100px
+    }
+    .header-description{
+        position: relative;
+        top: 80px;
+    }
+    .donate-container{
+        margin-left: 0;
+    }
+        
+    .donate-btn{
+        position: relative;
+        left: 100px;
+        top: -90px;
+    }
+    .donate-title{
+        margin-left: -20px;
+        margin-top: 50px;
+    }
+    .donate-desceiption{
+        margin-left: -30px;
+        padding: 10px 80px;
+    }
+    .donate-main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 50px;
+    }
+    .our-description{
+        padding: 30px;
+        position: relative;
+        bottom: 90px;
+    }
+    .our-div-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .our-help1,.our-help2,.our-help3{
+        width: 200px;
+        height: 350px;
+        position: relative;
+        bottom: 100px;
+    }
+        
+    .our-header{
+        position: relative;
+        bottom: 70px;
+    }
+    .help-description{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        bottom: 10px;
+        left: -15px;
+    }
+    .banner-titel{
+        width: 100px;
+        height: 150px;
+        position: relative;
+        right: 200px;
+        top:-70px;
+        padding: 10px 100px;
+    }
+    .banner-description{
+        position: relative;
+        right: 150px;
+        top: 70px;
+
+    }
+    .primary-btn{
+        position: relative;
+        top: 60px;
+        right: 100px;
+    }
+    .help-1{
+        position: relative;
+        top: 600px;
+        right: 600px;
+    }
+    .help-2{
+        position: relative;
+        top: 500px;
+        right: 120px;
+    }
+    .banner-title-2{
+        position: relative;
+        top: 980px;
+        right: 470px;
+    }
+    .banner-description2{
+        position: relative;
+        right: 470px;
+        top: 980px;
+        margin-bottom: 800px;
+    }
+    .banner-main2>.primary-btn{
+        position: relative;
+        top: 220px;
+        right: 470px;
+        padding: 20px;
+    }
+    .update-title{
+        position: relative;
+        top:200px
+    }
+    .update-description{
+        position: relative;
+        top: 200px;
+        right: 180px;
+        margin-bottom: 800px;
+    }
+    .user-container{
+        margin-left: 0;
+        position: relative;
+        bottom: 680px;
+    }
+    #email{
+        position: relative;
+        left: -120px;
+        top:-50px;
+    }
+    .email-section>.primary-btn{
+        position: relative;
+        right: 320px;
+    }
+    .footer-main{
+        position: relative;
+        top: 5000px;
+    }
+    main{
+        height: 100vh;
+    }
+        
+    
+}
+/* medium device */
+@media screen and (min-width:577px) and (max-width:900px) {
+    .donate-title{
+        position: relative;
+        right: 50px;
+    }
+    .donate-desceiption{
+        position: relative;
+        right: 50px;
+    }
+    .donate-main{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        position: relative;
+        right: 50px;
+    }
+    .donate-taka{
+        position: relative;
+        right: 70px;
+        top: 20px;
+    }
+    .donate-btn>.primary-btn{
+         position:relative;
+         top: 0px;
+         right: 80px;
+    }
+    .help-description{
+        position: relative;
+        width: 180px;
+    }
+    .our-help1,.our-help2,.our-help3{
+        margin-left: -38px;
+
+}
+    .banner-titel{
+    position: relative;
+    right: 100px;
+}
+    .help-1{
+        position: relative;
+        right: 100px;
+}
+.banner-description{
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+.banner-main>.primary-btn{
+    position: relative;
+    top: 40px;
+}
+.banner-title-2{
+    position: relative;
+    bottom: 40px;
+}
+.banner-description2{
+    position: relative;
+    bottom: 60px;
+}
+.banner-main2>.primary-btn{
+    position: relative;
+    bottom: 80px;
+}
+.update-title{
+    position: relative;
+    bottom: 50px;
+
+}
+.update-description{
+    position: relative;
+    bottom: 20px;
+}
+.user-container{
+    position: relative;
+    right: 200px;
+}
+
+
+
+}
